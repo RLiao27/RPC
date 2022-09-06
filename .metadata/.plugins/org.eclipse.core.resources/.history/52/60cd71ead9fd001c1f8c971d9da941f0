@@ -1,0 +1,22 @@
+package com.ran.netty.handler;
+
+import io.netty.channel.ChannelHandler;
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.channel.ChannelInboundHandlerAdapter;
+
+public class SimpleClientHandler extends ChannelInboundHandlerAdapter {
+
+	@Override
+	public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
+		// TODO Auto-generated method stub
+		super.channelRead(ctx, msg);
+	}
+
+	@Override
+	public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
+		// TODO Auto-generated method stub
+		super.userEventTriggered(ctx, evt);
+	}
+
+ 
+}

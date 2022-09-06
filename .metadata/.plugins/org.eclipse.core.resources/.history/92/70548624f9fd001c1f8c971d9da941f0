@@ -1,0 +1,5 @@
+package com.ran.netty.param;
+
+public class ServerRequest {
+
+}

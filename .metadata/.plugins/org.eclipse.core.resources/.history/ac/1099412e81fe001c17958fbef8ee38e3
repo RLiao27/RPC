@@ -1,0 +1,20 @@
+package com.ran.basic.service;
+
+import org.springframework.stereotype.Service;
+
+import com.alibaba.fastjson.JSONObject;
+import com.ran.user.model.User;
+
+import user.remote.UserRemote;
+@Service
+public class BasicService {
+	public static UserRemote userRemote;
+
+	public void testSaveUser() {
+		User user = new User();
+		user.setId(1000);
+		user.setName("张三");
+		Object response = userRemote.saveUser(user);
+		System.out.println(JSONObject.toJSONString(response));
+	}
+}

@@ -1,0 +1,32 @@
+package controller;
+
+import org.springframework.stereotype.Controller;
+
+import bean.User;
+import client.Response;
+import service.UserService;
+import util.ResponseUtil;
+
+import javax.annotation.Resource;
+
+
+@Controller
+public class UserController {
+	@Resource
+	private UserService service;
+	
+	public Response saveUser(User user){
+		service.saveUSer(user);
+		Response response = ResponseUtil.createSuccessResponse(user);
+		
+		return response;
+	}
+	
+	public Response saveUsers(List<User> userlist){
+		service.saveUSerList(userlist);
+		Response response = ResponseUtil.createSuccessResponse(userlist);
+		
+		return response;
+	}
+
+}

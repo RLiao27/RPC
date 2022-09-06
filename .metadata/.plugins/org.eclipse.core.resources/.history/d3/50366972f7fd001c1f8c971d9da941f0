@@ -1,0 +1,5 @@
+package com.ran.netty.client;
+
+public class Response {
+
+}

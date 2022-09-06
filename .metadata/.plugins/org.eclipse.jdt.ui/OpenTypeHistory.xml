@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=pro_netty_rpc/\/Users\/liaoran\/.m2\/repository\/io\/netty\/netty-transport\/4.1.78.Final\/netty-transport-4.1.78.Final.jar=/maven.pomderived=/true=/=/maven.groupId=/io.netty=/=/maven.artifactId=/netty-transport=/=/maven.version=/4.1.78.Final=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;io.netty.channel(ChannelInboundHandlerAdapter.class[ChannelInboundHandlerAdapter" modifiers="33" timestamp="1657121889000"/>
+    <typeInfo handle="=consumer/\/Users\/liaoran\/.m2\/repository\/org\/apache\/curator\/curator-framework\/2.4.2\/curator-framework-2.4.2.jar=/maven.pomderived=/true=/=/maven.groupId=/org.apache.curator=/=/maven.artifactId=/curator-framework=/=/maven.version=/2.4.2=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.apache.curator.framework.api(CuratorWatcher.class[CuratorWatcher" modifiers="1537" timestamp="1657173797000"/>
+</typeInfoHistroy>

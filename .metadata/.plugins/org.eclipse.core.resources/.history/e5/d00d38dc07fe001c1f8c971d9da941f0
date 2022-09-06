@@ -1,0 +1,26 @@
+package ran.pro_netty_rpc;
+
+import org.junit.Test;
+
+import client.ClientRequest;
+import client.TcpClient;
+import init.Response;
+
+public class TestTcp {
+	@Test
+	public void testGetResponse() {
+		ClientRequest request = new ClientRequest();
+		request.setContent("测试TCP长连接");
+		Response response = TcpClient.send(request);
+		System.out.println(response.getResult());
+		
+	}
+	public void testSaveUser() {
+		ClientRequest request = new ClientRequest();
+		request.setContent("测试TCP长连接");
+		Response response = TcpClient.send(request);
+		System.out.println(response.getResult());
+		
+	}
+	
+}

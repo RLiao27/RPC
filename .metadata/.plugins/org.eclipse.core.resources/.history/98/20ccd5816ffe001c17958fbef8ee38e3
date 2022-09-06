@@ -1,0 +1,12 @@
+package com.ran.user.remote;
+
+import java.util.List;
+
+import com.ran.user.model.Response;
+import com.ran.user.model.User;
+
+
+public interface UserRemote {
+	public Response saveUser(User user);
+	public Response saveUsers(List<User> userlist);
+}
